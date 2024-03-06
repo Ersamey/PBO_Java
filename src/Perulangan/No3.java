@@ -15,7 +15,7 @@ public class No3 {
             terbesar = bilangan2;
         }
         int temp = 0;
-        for(int i=2; i<terbesar; i++){
+        for(int i=1; i<=terbesar; i++){
             if((bilangan1 % i == 0) && (bilangan2 % i == 0)){
                 temp = i;
             }

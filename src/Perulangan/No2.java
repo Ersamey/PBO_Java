@@ -8,7 +8,7 @@ public class No2 {
         System.out.println("Masukan batas akhir: ");
         int akhir = myObj.nextInt();
         
-        for(int i=awal; i<akhir; i++){
+        for(int i=awal; i<=akhir; i++){
             if(i%2 == 0){
                 System.out.println(i);
             }
